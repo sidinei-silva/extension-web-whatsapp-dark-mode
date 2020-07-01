@@ -1,0 +1,124 @@
+html{
+  width: 300px;
+  padding: 15px;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+
+}
+
+#title {
+  font-family:  Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 0 5px;
+}
+
+#img-header{
+  flex-grow: 0;
+  max-width: 30px;
+  max-height: 30px;
+  margin: 0 5px;
+}
+
+#button-on-div{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-on-off{
+  margin: 5px 0;
+}
+
+#button-on {
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  background-color: rgba(40, 167, 69, 1);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+   /* border radius */
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: 1px solid rgba(40, 167, 69, 1);
+}
+
+/* hover effect */
+#button-on:hover  {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 136, 56, 1);
+  border-color: rgba(40, 167, 69, 1)
+}
+
+/* active/click effect */
+#button-on:active  {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(30, 126, 52, 1);
+  border-color: rgba(28, 116, 48, 1);
+}
+
+
+#button-off {
+  cursor: pointer;
+
+  padding: 8px 16px;
+
+  font-size: 16px;
+
+  color: rgba(255, 255, 255, 1);
+
+  font-weight: 400;
+
+  background-color: rgba(220, 53, 69, 1);
+
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+
+   /* border radius */
+  border-radius: 4px;
+
+  -moz-border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+
+  border: 1px solid rgba(220, 53, 69, 1);
+
+}
+
+/* hover effect */
+#button-off:hover  {
+
+  color: rgba(255, 255, 255, 1);
+
+  background-color: rgba(200, 35, 51, 1);
+
+  border-color: rgba(220, 53, 69, 1);
+
+}
+
+/* active/click effect */
+#button-off:active  {
+
+  color: rgba(255, 255, 255, 1);
+
+  background-color: rgba(189, 33, 48, 1);
+
+  border-color: rgba(178, 31, 45, 1);
+
+}
+
+#stateText{
+  text-align: center;
+}
